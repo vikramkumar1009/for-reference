@@ -1,0 +1,18 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: C:\inetpub\wwwroot\nrl\net6.0\publish
+hooks:
+  ApplicationStop:
+    - location: \scripts\after-install.bat
+      runas: administrator
+      timeout: 180
+  BeforeInstall:
+    - location: \scripts\before-install.bat
+      runas: administrator
+      timeout: 900
+  ApplicationStart:
+    - location: \scripts\app-start.bat
+      runas: administrator
+      timeout: 180

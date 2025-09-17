@@ -1,0 +1,1 @@
+rmdir /s /q "C:\inetpub\wwwroot\nrl\net6.0\publish"

@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DlplOne.LMS.API-Satyam", "DlplOne.LMS.API-Satyam", "{DDBB4FC1-3255-0492-C901-11597CF7681D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlplone.LMS", "DlplOne.LMS.API-Satyam\Dlplone.LMS\Dlplone.LMS.csproj", "{443A8568-1E8B-F545-5BBC-28F2A60F4DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlplone.LMS.Domain", "DlplOne.LMS.API-Satyam\Dlplone.LMS.Domain\Dlplone.LMS.Domain.csproj", "{87058F35-F251-3451-62FB-0428E9B0418D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlplone.LMS.Domain.Specs", "DlplOne.LMS.API-Satyam\Dlplone.LMS.Domain.Specs\Dlplone.LMS.Domain.Specs.csproj", "{712103B7-13B3-59EC-2487-D1B2024D162D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlplone.LMS.DTO", "DlplOne.LMS.API-Satyam\Dlplone.LMS.DTO\Dlplone.LMS.DTO.csproj", "{052B792C-32E5-171E-10F5-97A14B6981DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlplone.LMS.Entities", "DlplOne.LMS.API-Satyam\Dlplone.LMS.Entities\Dlplone.LMS.Entities.csproj", "{0BDD5451-60B2-771B-7091-43695474789E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlplone.LMS.Specs", "DlplOne.LMS.API-Satyam\Dlplone.LMS.Specs\Dlplone.LMS.Specs.csproj", "{A1AF051C-600E-FCE0-F027-DD045E1A2779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{443A8568-1E8B-F545-5BBC-28F2A60F4DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443A8568-1E8B-F545-5BBC-28F2A60F4DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443A8568-1E8B-F545-5BBC-28F2A60F4DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443A8568-1E8B-F545-5BBC-28F2A60F4DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87058F35-F251-3451-62FB-0428E9B0418D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87058F35-F251-3451-62FB-0428E9B0418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87058F35-F251-3451-62FB-0428E9B0418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87058F35-F251-3451-62FB-0428E9B0418D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712103B7-13B3-59EC-2487-D1B2024D162D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712103B7-13B3-59EC-2487-D1B2024D162D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712103B7-13B3-59EC-2487-D1B2024D162D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712103B7-13B3-59EC-2487-D1B2024D162D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052B792C-32E5-171E-10F5-97A14B6981DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052B792C-32E5-171E-10F5-97A14B6981DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052B792C-32E5-171E-10F5-97A14B6981DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052B792C-32E5-171E-10F5-97A14B6981DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDD5451-60B2-771B-7091-43695474789E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDD5451-60B2-771B-7091-43695474789E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDD5451-60B2-771B-7091-43695474789E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDD5451-60B2-771B-7091-43695474789E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AF051C-600E-FCE0-F027-DD045E1A2779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AF051C-600E-FCE0-F027-DD045E1A2779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AF051C-600E-FCE0-F027-DD045E1A2779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AF051C-600E-FCE0-F027-DD045E1A2779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{443A8568-1E8B-F545-5BBC-28F2A60F4DF2} = {DDBB4FC1-3255-0492-C901-11597CF7681D}
+		{87058F35-F251-3451-62FB-0428E9B0418D} = {DDBB4FC1-3255-0492-C901-11597CF7681D}
+		{712103B7-13B3-59EC-2487-D1B2024D162D} = {DDBB4FC1-3255-0492-C901-11597CF7681D}
+		{052B792C-32E5-171E-10F5-97A14B6981DE} = {DDBB4FC1-3255-0492-C901-11597CF7681D}
+		{0BDD5451-60B2-771B-7091-43695474789E} = {DDBB4FC1-3255-0492-C901-11597CF7681D}
+		{A1AF051C-600E-FCE0-F027-DD045E1A2779} = {DDBB4FC1-3255-0492-C901-11597CF7681D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47FA4B72-F4FD-4834-92C7-A6E54A8EB6A9}
+	EndGlobalSection
+EndGlobal
